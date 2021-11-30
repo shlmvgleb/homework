@@ -24,4 +24,12 @@ class MyMath:
 
     @staticmethod
     def sqrt(a):
-        return sqrt(a)
+        return sqrt(a)   
+    
+
+print(MyMath.subtraction(10, 10))
+print(MyMath.addition(10, 10))
+print(MyMath.pow(10, 10))
+print(MyMath.division(10, 10))
+print(MyMath.multiplication(10, 10))
+print(MyMath.sqrt(100))
